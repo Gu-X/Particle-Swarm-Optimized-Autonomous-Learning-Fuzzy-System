@@ -57,8 +57,8 @@ Input.Y1=Y1; % testing output
 Input.MaxIt=200; % maximum iteration number for PSO algorithm
 Input.nPop=100; % population number for PSO algorithm
 Input.w=0.7298; % inertia weight for PSO algorithm
-Input.cs=1.49618; % c1 for PSO algorithm
-Input.cp=1.49618; % c2 for PSO algorithm
+Input.cp=1.49618; % c1 for PSO algorithm
+Input.cs=1.49618; % c2 for PSO algorithm
 Input.wdamp=1; % damping coefficient for PSO algorithm
 
 [Output]=PSOALFS(Input);
